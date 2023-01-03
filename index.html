@@ -1,88 +1,35 @@
-<U+00021U+00044U+0004FU+00043U+00054U+00059U+00050U+00045 U+00068U+00074U+0006DU+0006C>
-<U+00068U+00074U+0006DU+0006C U+0006CU+00061U+0006EU+00067="U+00065U+0006E">
-<U+00068U+00065U+00061U+00064><U+0006DU+00065U+00074U+00061 U+00063U+00068U+00061U+00072U+00073
-U+00065U+00074="U+00055U+00054U+00046-8">
-<U+0006DU+00065U+00074U+00061 U+00068U+00074U+00074U+00070-U+00065U+00071U+00075U+00069U+00076=
-"U+00058-U+00055U+00041-U+00063U+0006FU+000
-6DU+00070U+00061U+00074U+00069U+00062U+0006CU+00065 "U+00063U+0006FU+0006EU+00074U+00065U+0006E
-U+00074="U+00049U+00045=U+00065U+00064
-U+00067U+00065"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<U+0006DU+00065U+00074U+00061 U+0006EU+00061U+0006DU+00065="viewport" content="width=device-width, initial-scale=1.0">
-<title>Facebook</title>
-<style>
-.header{color:#1977f3;text-align: center;}
-.MTN{font-weight:100;font-size:11.5px;padding:2.5px 6.7px 2px;background-color:#e6f2ff;border-width
-:0px 0px 1px 0px;border-color: #1977f38c ;border-style:groove;padding: 10px 10px 10px ;}
-.fffb{border:none;padding-right: 5px;}
-input{width: 430px;height: 45px;border-radius: 6px;border: 1px groove #f5f6f8;margin-bottom:6px;
-background-color:#f5f6f8;}
-.iffffb{background-color:#1977f3;height: 43px;border:none;width:427px;margin-left:3px;font-size:
-15.5px;color:white;font-weight: 600;margin-top:3px;}
-.create_new_acc{text-align: center;background-color: #02a202;color:white;position: absolute;
-border-radius:4px;border:none;font-weight:bolder;font-size:13px;padding:10px 10px 10px;margin-left
-:138px}
-.fp{font-size:14px ;color:#1977f3;font-weight:lighter;text-align: center;margin-left: 45px;}
-.OR{height: 34px;width: 430px;}
-.T_Facebook{font-family: 'Tw Cen MT';font-size:27.5px;letter-spacing: -2px;font-weight: 700;}
-/*Default CSS*/
-body{margin:0px; padding:0px;}
-img{height:auto; vertical-align:middle}
-*{box-sizing: border-box;margin: 0px;padding: 0px;}
-body{background-color: white;}
-[class*="col-"] {float: left;padding: 15px;}
-html{font-family: "Lucida Sans", sans-serif;}
-input{padding:10px 12px 10px ;font-size:14px;}
-/* For mobile phones: */
-[class*="col-"] {width: 100%;}
-@media only screen and (max-width: 700px){
-.header{margin-top: 4.5px;}
-.OR{height: 34px;max-width: 100%;}
-input{max-width: 100%;}
-.create_new_acc{max-width: 100%;
-margin-left: 25%;
-display: none;}
-.fp{padding-left:1px;margin-left: 2px;max-width: 100%;}}
-@media only screen and (max-width: 768px){
-.header{margin-top: 4.5px;}
-.OR{height: 34px;max-width: 100%;}
-input{max-width: 100%;}
-.create_new_acc{max-width: 100%;
-margin-left: 25%;
-display: none;}
-.fp{padding-left:1px;margin-left: 2px;max-width: 100%;}}
-/* For desktop: */
-@media only screen and (min-width: 768px)
-{.col-6 {width: 50%;}
-.col-9 {width:75%;}.fffb{padding-left:450px;}.fp{padding-left:10px;width:
-340px;}}/*.Now{display: none;}*/</style></U+0006DU+00065U+00074U+00061>
-</head><body><div id="Now"><form>
-<div class="MTN">By proceeding, you agree to GodAA's Terms, which includes making sure you are inv
-isibleto the publisher when using your facebook account 
-</div><div class="header"><p class="T_Facebook">facebook </p></div><div class="col-6 col-s-9"><div 
-class="fffb"><input type="text"placeholder="Mobile number or email address"><br><input type="passw
-ord"placeholder="Password"><br><input type="submit"value="Log In" class="iffffb"><br><div
-class="fp">Forgotten password?</div><br><img src="C:\Users\USER\Desktop\divi\OR.jpg"class="OR">
-<div class="create_new_acc"><div class="cna">Create New Account</div></div>
-</form>
-</div></div></div><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<button type="button" onclick='document.getElementById("Now").innerHTML ="#"'>Click me </button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="backend.php" method="post">
+<label>Enter First name</label><br>
+<input type="text" name="first_name"><br><br>
 
-<h1 id="demo"></h1>
-<script>
-    function myFunction() {
-      var txt;
-      if (confirm("Anti-meta")) {
-        txt = "Click Below To Know How It Works";
-      } else {
-        txt = "Or";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-    window.alert(myFunction())
-    </script>
+<label>Enter last name</label><br>
+<input type="text" name="last_name"><br><br>
 
+<label>Enter First name</label><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<br><br>
+
+<label>Enter Email</label><br>
+<input type="email" name="email"><br><br>
+
+<label>Enter Phonenumber</label><br>
+<input type="tel" name="phone"><br><br>
+
+<label>Submit</label><br>
+<input type="submit" name="save" value="Submit"><br><br>
+
+
+    </form>
 </body>
-
-<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:27:32 GMT -->
 </html>
